@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1048685706393",
+    "project_id": "let-s-chat-7beca",
+    "storage_bucket": "let-s-chat-7beca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048685706393:android:35b8218ae1d4e69e74cc08",
+        "android_client_info": {
+          "package_name": "com.example.letschat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048685706393-kd7kunjc7vgjklv3k1bs3lbp13poqvdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiq7WzmJVxRlGB3uM-KNrQzn8fBugX2Ag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048685706393-kd7kunjc7vgjklv3k1bs3lbp13poqvdu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/phoneotp"
+    tools:context=".Signup">
+
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="87dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="596dp"
+        android:background="@drawable/btn_background"
+        android:text="Sign up"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="292dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="394dp"
+        android:background="@drawable/edit_background"
+        android:hint="Email Address"
+        android:paddingLeft="18dp" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="202dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="487dp"
+        android:background="@drawable/edit_background"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="18dp" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="388dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="297dp"
+        android:background="@drawable/edit_background"
+        android:hint="Name"
+        android:paddingLeft="18dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="234dp"
+        android:layout_height="173dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="481dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="77dp"
+        app:srcCompat="@drawable/ic_consultancy" />
+
+    <TextView
+        android:id="@+id/LetsGetStarted"
+        android:layout_width="241dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="628dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="28dp"
+        android:text="Let's Get Started!!!!"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
